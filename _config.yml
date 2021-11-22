@@ -1,5 +1,8 @@
 markdown: redcarpet
 baseurl: /freya
+exclude : ['README.md','template.md']
 permalink: pretty
-include:
-  - README.md
+collections: 
+  tools:
+    output: true
+    permalink: /tools/:path/
