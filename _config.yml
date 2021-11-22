@@ -1,0 +1,5 @@
+markdown: redcarpet
+baseurl: /freya
+permalink: pretty
+include:
+  - README.md
