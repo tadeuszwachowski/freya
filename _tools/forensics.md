@@ -11,8 +11,8 @@ title: "forensics"
 
 	Install with:
 	```
-	$ pip3 install stegoveritas
-	$ stegoveritas_install_deps
+	pip3 install stegoveritas
+	stegoveritas_install_deps
 	```
 	
 	Usage:
