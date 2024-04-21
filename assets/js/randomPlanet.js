@@ -1,5 +1,5 @@
 function fetchRandomPlanet() {
-    fetch('/freya/_data/planets.txt')
+    fetch('/_data/planets.txt')
         .then(response => response.text())
         .then(data => {
             const planets = data.trim().split('\n');
