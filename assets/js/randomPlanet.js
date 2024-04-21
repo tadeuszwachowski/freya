@@ -1,5 +1,5 @@
 function fetchRandomPlanet() {
-    fetch('/../data/planets.txt')
+    fetch('https://raw.githubusercontent.com/dgoldstein0/GLST/master/planet%20names.txt')
         .then(response => response.text())
         .then(data => {
             const planets = data.trim().split('\n');
