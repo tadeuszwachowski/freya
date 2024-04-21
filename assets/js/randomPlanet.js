@@ -1,5 +1,5 @@
 function fetchRandomPlanet() {
-    fetch('/_data/planets.txt')
+    fetch('/../data/planets.txt')
         .then(response => response.text())
         .then(data => {
             const planets = data.trim().split('\n');
